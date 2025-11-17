@@ -365,6 +365,7 @@ class MainWindow(QMainWindow):
         container.setLayout(main_layout)
         self.setCentralWidget(container)
         self.resize(1400, 700)  # Set initial window size
+        self.setMinimumSize(1200, 500)
         self.setWindowTitle("Partition Allocation Simulator")
 
     def add_job(self):
