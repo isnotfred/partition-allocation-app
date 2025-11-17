@@ -2,7 +2,7 @@ import sys
 from partition.memory_classes import Partition, Job
 from partition.algorithms import first_fit, best_fit, worst_fit, next_fit, deallocate
 from PyQt5.QtWidgets import (
-    QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QGridLayout, QTableWidget,
+    QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QTableWidget,
     QTableWidgetItem, QLineEdit, QPushButton, QLabel, QHeaderView, QComboBox, QSizePolicy
 )
 from PyQt5.QtCore import Qt
