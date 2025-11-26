@@ -129,7 +129,7 @@ def next_fit(partitions, waiting_jobs, allocated_jobs, last_index=0):
 
         # Check and assign if it fits in a free partition, starting after last_index
         for i in range(n):  # Check all partitions in circular order
-            idx = (last_index + 1 + i) % n  # Calculate circular index (wraps around)
+            idx = (last_index + i) % n  # Calculate circular index (wraps around)
             partition = partitions[idx]
             # Check if partition is free and large enough for the job
             if not partition.occupied and job.memory_needed <= partition.memory_space:
