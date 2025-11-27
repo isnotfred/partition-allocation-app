@@ -55,12 +55,12 @@ class MainWindow(QMainWindow):
                 font-size: 14px;
                 color: #333;
             }
+            QLineEdit:hover {
+                border: 2px solid #bbb;
+            }
             QLineEdit:focus {
                 border: 2px solid #4CAF50;
                 background-color: #fafafa;
-            }
-            QLineEdit:hover {
-                border: 2px solid #bbb;
             }
         """
 
